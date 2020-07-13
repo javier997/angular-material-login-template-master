@@ -1,0 +1,26 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+  <mat-card class="box">
+    <mat-card-header>
+      <!--<mat-card-title>Inicio de Sesión</mat-card-title>-->
+    </mat-card-header>
+    <form class="example-form">
+      <div class="cajaPresupuestos">
+        <h3 class="tituloPresupuesto">Busqueda de presupuestos</h3>
+        <mat-card-content>
+          <!--<mat-form-field class="example-full-width">-->
+          <!--<input matInput placeholder="Usuario *" class="inputLog">-->
+          <div class="labelLog2">Usuario <span class="asterisco">*</span></div><input type="text" class="inputLog">
+          <br><br>
+          <!--</mat-form-field>-->
+          <!--<mat-form-field class="example-full-width">-->
+          <!--<input matInput placeholder="Contraseña *">-->
+          <div class="labelLog2">Contraseña <span class="asterisco">*</span></div><input type="text" class="inputLog">
+          <br><br><br>
+          <!--</mat-form-field>-->
+        </mat-card-content>
+        <button [routerLink]="'/buscarPresupuesto'" mat-raised-button class="btn-block botonEntrar">Entrar</button>
+      </div>
+    </form>
+  </mat-card>
+</div>
+<!--<div id="informacion">HHHH</div>-->
